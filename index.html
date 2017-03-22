@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <link rel="stylesheet" href="css/index.css" type="text/css">
+  <script src="js/jquery.js"></script>
+  <title>Document</title>
+ </head>
+ <body>
+ <!--header start-->
+  <div id="header">
+      <div class="head">
+			 <div class="left">
+			    <a href=""><img src="images/1_03.png" alt="logo"></a>
+			 </div>
+			 <div class="right">
+			 	<div class="wb">
+				    <a href="" class="weixin">
+						 <div class="ewm"><img src="images/er_03.png"></div>
+					</a>
+					<a href="" class="sina">
+						 <div class="ewm"><img src="images/er_03.png"></div>
+					</a>
+				</div>
+			 <a href="##" class="pc coma">立即品尝</a>
+			 <a href="" class="coma"><span class="span1">特色水果</span><span class="span2"><img src="images/nav1_03.png"></span></a>
+			 <a href="" class="coma"><span class="span1">功能果汁</span><span class="span2"><img src="images/nav1_03.png"></span></a>
+			 <a href="Cut.html" class="coma"><span class="span1">精选果切</span><span class="span2"><img src="images/nav1_03.png"></span></a>
+			 <a href="Pure fruit.html" class="coma"><span class="span1">鲜榨纯果</span><span class="span2"><img src="images/nav1_03.png"></span></a>
+			 </div>
+	  </div>
+  </div>
+  <div id="tk"></div>
+  <div class="tk_con">
+      <img src="images/e_03.png" height=220px>
+	  <p>扫描二维码,即刻品尝</p>
+  </div>
+  <!--banner start-->
+  <div id="banner">
+        <div id="slideBox" class="slideBox">
+			<div class="hd  larger">
+				<ul><li></li><li></li><li></li></ul>
+			</div>
+			<div class="bd">
+				<ul>
+					<li>
+					     <a href=""><img src="images/1_02.jpg" class="img1" /></a>
+						<div class="txt"><img src="images/bannertxt.png"></div>
+					</li>
+					<li><a href="">
+						<img src="images/1_02.jpg" class="img1"/></a>
+						<div class="txt"><img src="images/bannertxt.png"></div>
+					</li>
+					<li>
+					    <a href=""><img src="images/1_02.jpg" class="img1"/></a>
+						<div class="txt"><img src="images/bannertxt.png"></div>
+					</li>
+				</ul>
+			</div>
+			<!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+			<a class="btn btn1 prev" href="javascript:void(0)"></a>
+			<a class="btn btn2 next" href="javascript:void(0)"></a>
+		</div>
+  </div>
+
+  <!--footer start-->
+  <div id="footer">
+       <div class="fot">
+	       <div class="fot-left">
+		          <p class="txt">鲜果蜗牛：跳出繁复快工作，享受原态慢生活。</p>
+				  <p class="copy">COPYRIGHT © 2015  鲜果蜗牛 All rights reserved 版权所有  蜀ICP14009121号</p>
+		   </div>
+		   <div class="fot-right">
+		      <a href="" class="a3"><span>常见</span><span>问题</span></a>
+			  <a href="" class="a2"><span>关于</span><span>蜗牛</span></a>
+			  <a href=""><span>加盟</span><span>我们</span></a>
+		   </div>
+	   </div>
+  </div>
+ </body>
+</html>
+  <script src="js/jquery.min.js"></script>
+  <script>
+  $(window).on('scroll',function(){
+	         if($(window).scrollTop()>230){
+			    $('.slideBox .hd').removeClass('larger').addClass('small');
+				$(".slideBox .btn1").removeClass('prev').addClass('pre');
+				$(".slideBox .btn2").removeClass('next').addClass('nex');
+			 }else{
+			   $('.slideBox .hd').removeClass('small').addClass('larger');
+			   $(".slideBox .btn1").removeClass('pre').addClass('prev');
+			   $(".slideBox .btn2").removeClass('nex').addClass('next');
+			 }
+	   })
+	 </script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+<script src="js/index.js"></script>

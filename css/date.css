@@ -1,0 +1,131 @@
+/*鲜榨纯果*/
+#fruit{width:100%;height:826px;position:relative;cursor:pointer;}
+#fruit ul.pic{height:826px;width:100%;position:relative;overflow:hidden;}
+#fruit ul.pic li{width:100%;height:826px;}
+#fruit ul.btn{width:20px;height:100px;position:absolute;right:30px;top:40%;}
+#fruit ul.btn li{width:15px;height:15px;background:#bcba2a;margin-bottom:10px;border-radius:15px;position:relative;}
+#fruit ul.btn li.hover{background:#fff;}
+#fruit ul.btn li span{display:block;width:107px;height:30px;background:url("../images/btt_03.png") no-repeat center;position:absolute;right:20px;top:-8px;color:#bcba2a;
+                                          line-height:30px;display:none;text-align:center;}
+#fruit ul.btn li.hover span{display:block;}
+#fruit .cur{display:block;width:26px;height:65px;position:absolute;bottom:20px;left:49%;}
+/*到店体验*/
+#pure{width:100%;height:867px;position:relative;background:url("../images/j_02.png") no-repeat top center;position:relative;top:-20px;}
+#pure .span1{width:140px;height:286px;background:url("../images/y_03.png") no-repeat right center;display:block;position:absolute;right:0;top:287px;z-index:10;}
+#pure .span2{width:282px;height:372px;background:url("../images/y_05.png") no-repeat left center;display:block;position:absolute;left:0;top:689px;z-index:10;}
+#pure .span3{width:130px;height:112px;background:url("../images/y_09.png") no-repeat left center;display:block;position:absolute;left:68%;top:1183px;z-index:10;}
+#pure p{text-align:center;color:#666;font-family:"Arial"; }
+#pure p.p1{padding-top:120px;font-size:36px;color:#666;font-family:"Arial";}
+#pure p.p2{background:url("../images/ty_03.png") no-repeat bottom center;width:100%;height:60px;margin-top:45px;color:#fff;line-height:60px;font-size:24px;text-indent:30px;
+                   font-family:"Arial";}
+#pure p.p3{margin-top:80px;}
+#pure p.p4{font-size:36px;margin-top:40px;}
+#pure p.p5{font-size:24px;}
+/*产品开始*/
+#Products{width:100%;height:386px;background:#bcba2a;position:relative;top:-20px;}
+#Products .pro{width:652px;height:640px;position:absolute;left:30%;top:-140px;}
+
+/*物流配送*/
+#Distribution{margin-bottom:300px;}
+#Distribution p{text-align:center;font-size:24px;color:#666;font-family:"Arial";}
+#Distribution .dis{background:url("../images/g_03.png") no-repeat bottom center;width:100%;height:174px;margin:257px 0 100px;}
+#Distribution .ti{font-size:36px;color:#333;font-family:"Arial";margin-bottom:60px;}
+
+/*常见问题*/
+#question{width:100%;height:280px;background:url("../images/que_03.png") no-repeat center #847154;}
+#ques{width:1200px;margin:0 auto;padding-bottom:100px;}
+#ques h3{padding:10px 0 30px;color:#666;font-size:20px;}
+#ques .cont1{padding:20px;font-size:14px;background:#847154;border-radius:5px;color:#fff;line-height:30px;position:relative;}
+#ques .cont1 .top{width:31px;height:16px;background:url("../images/8_03.png") no-repeat center;position:absolute;top:-15px;left:45px;}
+#ques h3.title2{text-align:right;}
+#ques .cont2{padding:20px;font-size:14px;background:#bebb28;border-radius:5px;color:#fff;line-height:30px;position:relative;}
+#ques .cont2 .top{width:31px;height:16px;background:url("../images/9_07.png") no-repeat center;position:absolute;top:-15px;right:45px;}
+
+
+/*关于我们*/
+#ab{width:100%;height:130px;background:#847154;}
+#about{width:100%;margin-bottom:200px;}
+#about .top{width:1200px;margin:0 auto;height:485px;position:relative;}
+#about .top .top_left{width:600px;height:485px;float:left;}
+#about .top .top_left h2{color:#d1ce75;text-transform:uppercase;font-family:"宋体";padding:120px 0 60px;}
+#about .top .top_left h2 span{color:#333;}
+#about .top .top_left .text{text-transform:uppercase;color:#666;line-height:30px;}
+#about .top .top_right{width:417px;height:586px;position:absolute;top:105px;right:30px;box-shadow:-15px 15px 0 #847154;}
+
+
+#about .md{width:100%;height:280px;background:#c0bc29;}
+#about .md .md_c{width:1200px;height:280px;margin:0 auto;position:relative;}
+#about .md .md_c h2{padding:170px 0 77px;color:#fff;text-transform:uppercase;}
+#about .md .md_c .bott{width:41px;height:21px;background:url("../images/r_03.png") no-repeat center;position:absolute;left:115px;bottom:-20px;}
+
+#about .bot{width:1200px;margin:0 auto;margin-bottom:150px;}
+#about .bot dl{width:280px;float:left;padding-top:115px;margin:0 5px;}
+#about .bot dl dt{width:187px;height:187px;margin:0 40px;}
+#about .bot dl dd{font-size:12px;padding:0 30px;color:#666;}
+#about .bot dl dd.d1{font-size:16px;padding:20px 30px;color:#333;text-align:center;}
+
+
+/*详情页*/
+#detailsba{width:100%;height:574px;background:url("../images/bn_02.jpg") no-repeat center;}
+
+#details{width:1200px;margin:0 auto;margin-top:20px;position:relative;}
+#details .content .mbx{width:1200px;height:80px;background:#fff;margin:0 auto;position:absolute;top:-70px;}
+#details .content .mbx p{text-align:center;line-height:80px;color:#999;font-size:24px;font-family:"Arial";}
+#details .content ul.list{margin-bottom:50px;}
+#details .content ul.list li{width:330px;height:465px;border:1px solid #ddd;float:left;margin:20px 30px;position:relative;}
+#details .content ul.list li .top{width:330px;height:320px;}
+#details .content ul.list li .top .left{float:left;margin-left:30px;padding-top:20px;}
+#details .content ul.list li .top .left img{display:block;}
+#details .content ul.list li .top .md{width:40px;height:220px;float:left;font-size:40px;padding-top:90px;margin-left:40px;color:#666;font-family:"Arial";line-height:42px;}
+#details .content ul.list li .top .md span.num{-webkit-transform: rotate(90deg);-o-transform: rotate(90deg);-moz-transform: rotate(90deg);display:block;width:15px;
+                                       height:25px;position:relative;right:-22px;font-family:"宋体";}
+
+#details .content ul.list li .top .right{width:100px;height:210px;float:right;padding-top:90px;font-size:12px;}
+#details .content ul.list li .top .right span{width:110px;display:block;text-indent:20px;margin-bottom:20px;}
+#details .content ul.list li .top .right span.sp1{background:url("../images/bn_08.png") no-repeat left center;}
+#details .content ul.list li .top .right span.sp2{background:url("../images/bn_11.png") no-repeat left center;}
+#details .content ul.list li .top .right span.sp3{background:url("../images/bn_13.png") no-repeat left center;}
+#details .content ul.list li .top .right span.sp4{background:url("../images/bn_15.png") no-repeat left center;}
+#details .content ul.list li .top .right span.sp5{background:url("../images/bn_17.png") no-repeat left center;}
+
+#details .content ul.list li .bottom{width:300px;height:120px;margin:0 auto;}
+#details .content ul.list li .bottom dl{width:100px;height:120px;float:left;text-align:center;padding:0;}
+#details .content ul.list li .bottom dl dd{margin-top:20px;font-size:12px;}
+
+#details .content ul.list li .wei{width:330px;background:#bfbb2a;height:465px;position:absolute;left:0;top:0;display:none;}
+#details .content ul.list li .wei img{display:block;margin:100px auto 0;}
+#details .content ul.list li .wei p{text-align:center;color:#fff;padding-top:20px;}
+
+#details .content .jieshao{text-align:center;color:#666;}
+#details .content .jieshao p{width:100%;padding:15px 0;font-size:18px;}
+#details .content .jieshao img{margin:30px 0;}
+/*功能果汁*/
+
+#Function{width:100%;height:826px;overflow:hidden;position:relative;}
+
+#Function .slideBox{ width:100%; height:826px; overflow:hidden; position:relative;}
+#Function .slideBox .hd{ height:15px; overflow:hidden;z-index:1;}
+#Function .slideBox .larger{position:fixed; left:48%;bottom:20px;}
+#Function .slideBox .small{position:absolute; left:48%;bottom:20px;}
+#Function .slideBox .hd ul{ overflow:hidden; zoom:1; float:left;}
+#Function .slideBox .hd ul li{ float:left; margin-right:5px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer;border-radius:15px; }
+#Function .slideBox .hd ul li.on{ background:#b7b92a; color:#fff; }
+
+#Function .slideBox .bd{ position:absolute; height:100%; z-index:0;  left:50%;margin-left:-950px; }
+#Function .slideBox .bd li{ zoom:1; vertical-align:middle;width:100%;position:relative; }
+/* 下面是前/后按钮代码，如果不需要删除即可 */
+
+.slideBox .prev,
+.slideBox .next{ position:absolute; left:3%; top:45%; margin-top:-25px; display:block; width:75px; height:136px;filter:alpha(opacity=50);opacity:0.5;   }
+.slideBox .next{ left:auto; right:3%; background:url("../images/bannerbtn_05.png") no-repeat center; }
+.slideBox .btn{display:none;}
+.slideBox:hover .btn{display:block;}
+.slideBox .prev{background:url("../images/bannerbtn_03.png") no-repeat center;}
+.slideBox .prev:hover,
+.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+.slideBox .prevStop{ display:none;  }
+.slideBox .nextStop{ display:none;  }
+
+
+
+
